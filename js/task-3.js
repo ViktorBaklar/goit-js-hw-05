@@ -9,7 +9,7 @@ class Storage {
   addItem(item) {
     if (this.items.includes(item)) return;
     this.items.push(item);
-    return this.items;
+    //return this.items;
   }
   removeItem(item) {
     let id;
@@ -17,7 +17,7 @@ class Storage {
       id = this.items.indexOf(item);
     }
     this.items.splice(id, 1)
-    return this.items; 
+    //return this.items; 
   }
 }
 
